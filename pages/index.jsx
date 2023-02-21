@@ -4,7 +4,9 @@ export default function Home() {
   return (
     <div>
       Monochrome
-      <img src="/images/banners/banner.png" alt="banner" />
+      <picture>
+        <img src="/images/banners/banner.png" alt="banner" />
+      </picture>
       <button className="buton button-primary button-large">
         <a href="/">View all</a>
       </button>
