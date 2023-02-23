@@ -13,17 +13,13 @@
 @import './../node_modules/bootstrap/scss/bootstrap-grid.scss';
 @import './../node_modules/bootstrap/scss/bootstrap-utilities.scss';
 
-// reset eroare?
+@import './reset';
 
-// @import './reset';
-
-// variable eroare?
-
-// @import './variables';
+@import './variables';
 
 // common eroare?
 
-// @import './common/index';
+@import './common/index';
 
 body {
   font-size: 16px;

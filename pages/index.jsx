@@ -7,16 +7,11 @@ export default function Home() {
       <picture>
         <img src="/images/banners/banner.png" alt="banner" />
       </picture>
-      <button className="buton button-primary button-large">
-        <a href="/">View all</a>
-      </button>
-      <button class="button button-inverted">
-        <a href="/">View all</a>
-      </button>
-      <button class="button button-small">
-        <a href="/">Submit</a>
-      </button>
+      <button className="buton button-primary button-large"></button>
+      <button class="button button-inverted"></button>
+      <button class="button button-small">Submit</button>
       <a class="button button-primary">New in</a>
+
     </div>
   );
 }
